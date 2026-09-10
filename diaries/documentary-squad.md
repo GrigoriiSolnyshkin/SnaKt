@@ -273,3 +273,35 @@
 - Ran the required pre-delivery checks: test-data validation passed, while the
   Gradle check failed during configuration under Java 25.0.2 and `pre-commit`
   was skipped because it is not installed.
+
+## 2026-09-10 — Pull request #309 synchronized to `5ca315e`
+
+### User action
+
+- Pull request author: `sachok42`.
+- Pull request: [#309 — Implement air automations](https://github.com/JetBrains/SnaKt/pull/309).
+- The draft pull request's `implementing-air-automations` source branch was
+  synchronized from `1d91b7b83c45d8d3c43ac285afd3539dc1e2a51a` to
+  `5ca315ec2009de25b6ef96e4967546dc4d87e523`.
+- The synchronization event was sent by `jetbrains-air[bot]`.
+
+### Key changes
+
+- Added the Air-authored commit `5ca315e` (`Record pull request
+  synchronization to 1d91b7b`).
+- Appended the preceding synchronization event to
+  `diaries/documentary-squad.md` (32 added lines).
+- The synchronized range changed documentation only; it recorded the pull
+  request update from `659f1ec` to `1d91b7b` and the verification results from
+  that automation run.
+
+### Documentary squad actions
+
+- Read `AUTOMATIONS.md` and the Documentary squad's standing instructions.
+- Fetched the shallow checkout's missing `before` commit and verified that the
+  synchronized range added 32 lines to one Markdown file.
+- Appended this event's user-action summary and key repository changes to the
+  history.
+- Ran the required pre-delivery checks: test-data validation passed, while the
+  Gradle check failed during configuration under Java 25.0.2 and `pre-commit`
+  was skipped because it is not installed.
