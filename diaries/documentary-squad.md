@@ -58,3 +58,33 @@
   passed. The full Gradle check could not run under the environment's Java
   25.0.2 runtime, and `pre-commit` could not be installed because package
   downloads were denied by the environment's proxy.
+
+## 2026-09-10 — Pull request #309 synchronized to `026c88b`
+
+### User action
+
+- Pull request author: `sachok42`.
+- Pull request: [#309 — Implement air automations](https://github.com/JetBrains/SnaKt/pull/309).
+- The draft pull request's `implementing-air-automations` source branch was
+  synchronized from `75647efa7cc2bc1f3218a78cb0ffe44b04d75eca` to
+  `026c88b969319822c0c3d76c7d36a1ab5d9c3ba6`.
+- The synchronization event was sent by `jetbrains-air[bot]`.
+
+### Key changes
+
+- Added the Air-authored commit `026c88b` (`Record latest pull request
+  synchronization`).
+- Appended the preceding synchronization event to
+  `diaries/documentary-squad.md` (32 added lines).
+- The synchronized range changed documentation only; it recorded the pull
+  request update from `599baf6` to `75647ef` and the checks performed during
+  that automation run.
+
+### Documentary squad actions
+
+- Read the shared instructions in `AUTOMATIONS.md` and the Documentary squad's
+  standing instructions.
+- Fetched the shallow checkout's missing `before` commit and verified the exact
+  synchronized range.
+- Appended this event's user-action summary and key repository changes to the
+  history.
