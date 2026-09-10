@@ -1,0 +1,51 @@
+/char_arithmetic.kt: info: Generated Viper text for charPlusWrapsToCodeRange:
+method charPlusWrapsToCodeRange(c: Ref, n: Ref) returns (v_ret_0: Ref)
+  requires 0 <= charFromRef(c) && charFromRef(c) < 65536
+  requires isSubtype(typeOf(c), charType())
+  requires isSubtype(typeOf(n), intType())
+  requires intFromRef(n) >= 0
+  ensures 0 <= charFromRef(c) && charFromRef(c) < 65536
+  ensures 0 <= charFromRef(v_ret_0) && charFromRef(v_ret_0) < 65536
+  ensures isSubtype(typeOf(v_ret_0), charType())
+{
+  v_ret_0 := addCharInt(c, n)
+  goto lbl_ret_0
+  label lbl_ret_0
+}
+
+/char_arithmetic.kt: info: Generated Viper text for charMinusWrapsToCodeRange:
+method charMinusWrapsToCodeRange(c: Ref, n: Ref) returns (v_ret_0: Ref)
+  requires 0 <= charFromRef(c) && charFromRef(c) < 65536
+  requires isSubtype(typeOf(c), charType())
+  requires isSubtype(typeOf(n), intType())
+  requires intFromRef(n) >= 0
+  ensures 0 <= charFromRef(c) && charFromRef(c) < 65536
+  ensures 0 <= charFromRef(v_ret_0) && charFromRef(v_ret_0) < 65536
+  ensures isSubtype(typeOf(v_ret_0), charType())
+{
+  v_ret_0 := subCharInt(c, n)
+  goto lbl_ret_0
+  label lbl_ret_0
+}
+
+/char_arithmetic.kt: info: Generated Viper text for maxCharPlusOneIsMinChar:
+method maxCharPlusOneIsMinChar() returns (v_ret_0: Ref)
+  ensures 0 <= charFromRef(v_ret_0) && charFromRef(v_ret_0) < 65536
+  ensures isSubtype(typeOf(v_ret_0), charType())
+  ensures charFromRef(v_ret_0) == 0
+{
+  v_ret_0 := addCharInt(charToRef(65535), intToRef(1))
+  goto lbl_ret_0
+  label lbl_ret_0
+}
+
+/char_arithmetic.kt: info: Generated Viper text for minCharMinusOneIsMaxChar:
+method minCharMinusOneIsMaxChar() returns (v_ret_0: Ref)
+  ensures 0 <= charFromRef(v_ret_0) && charFromRef(v_ret_0) < 65536
+  ensures isSubtype(typeOf(v_ret_0), charType())
+  ensures charFromRef(v_ret_0) == 65535
+{
+  v_ret_0 := subCharInt(charToRef(0), intToRef(1))
+  goto lbl_ret_0
+  label lbl_ret_0
+}
