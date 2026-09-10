@@ -208,3 +208,36 @@
   synchronized range added 33 lines to one Markdown file.
 - Appended this event's user-action summary and key repository changes to the
   history.
+
+## 2026-09-10 — Pull request #309 synchronized to `659f1ec`
+
+### User action
+
+- Pull request author: `sachok42`.
+- Pull request: [#309 — Implement air automations](https://github.com/JetBrains/SnaKt/pull/309).
+- The draft pull request's `implementing-air-automations` source branch was
+  synchronized from `a20442d593db7f2659bfaa780e329f2e4ccb5db8` to
+  `659f1ecf9145cc77743e5ece322e7a044f11a0e7`.
+- The synchronization event was sent by `jetbrains-air[bot]`.
+
+### Key changes
+
+- Added the Air-authored commit `659f1ec` (`Record pull request
+  synchronization to a20442d`).
+- Appended the preceding synchronization event to
+  `diaries/documentary-squad.md` (29 added lines).
+- The synchronized range changed documentation only; it recorded the pull
+  request update from `bdc23e6` to `a20442d` and the verification steps from
+  that automation run.
+
+### Documentary squad actions
+
+- Read `AUTOMATIONS.md` and the Documentary squad's standing instructions.
+- Fetched the shallow checkout's missing `before` commit and verified that the
+  synchronized range added 29 lines to one Markdown file.
+- Appended this event's user-action summary and key repository changes to the
+  history.
+- Verified the test-data checks and Git diff whitespace checks. The full Gradle
+  check remains blocked by the environment's Java 25.0.2 runtime, and the
+  unavailable `pre-commit` package could not be installed because the package
+  proxy denied the download.
