@@ -179,3 +179,32 @@
   diff whitespace checks. The full Gradle check remains blocked by the
   environment's Java 25.0.2 runtime, and the unavailable `pre-commit` package
   could not be installed because the package proxy denied the download.
+
+## 2026-09-10 — Pull request #309 synchronized to `a20442d`
+
+### User action
+
+- Pull request author: `sachok42`.
+- Pull request: [#309 — Implement air automations](https://github.com/JetBrains/SnaKt/pull/309).
+- The draft pull request's `implementing-air-automations` source branch was
+  synchronized from `bdc23e6b0dfca12ad22a19013e4c6c2840550c5d` to
+  `a20442d593db7f2659bfaa780e329f2e4ccb5db8`.
+- The synchronization event was sent by `jetbrains-air[bot]`.
+
+### Key changes
+
+- Added the Air-authored commit `a20442d` (`Record pull request
+  synchronization to bdc23e6`).
+- Appended the preceding synchronization event to
+  `diaries/documentary-squad.md` (33 added lines).
+- The synchronized range changed documentation only; it recorded the pull
+  request update from `3365ff1` to `bdc23e6` and the verification results from
+  that automation run.
+
+### Documentary squad actions
+
+- Read `AUTOMATIONS.md` and the Documentary squad's standing instructions.
+- Fetched the shallow checkout's missing `before` commit and verified that the
+  synchronized range added 33 lines to one Markdown file.
+- Appended this event's user-action summary and key repository changes to the
+  history.
