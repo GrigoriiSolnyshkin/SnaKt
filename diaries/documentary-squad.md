@@ -88,3 +88,32 @@
   synchronized range.
 - Appended this event's user-action summary and key repository changes to the
   history.
+
+## 2026-09-10 — Pull request #309 synchronized to `b8fdc6f`
+
+### User action
+
+- Pull request author: `sachok42`.
+- Pull request: [#309 — Implement air automations](https://github.com/JetBrains/SnaKt/pull/309).
+- The draft pull request's `implementing-air-automations` source branch was
+  synchronized from `026c88b969319822c0c3d76c7d36a1ab5d9c3ba6` to
+  `b8fdc6fdd943962a0ac97a0cb215149b4efdf5f7`.
+- The synchronization event was sent by `jetbrains-air[bot]`.
+
+### Key changes
+
+- Added the Air-authored commit `b8fdc6f` (`Record pull request
+  synchronization to 026c88b`).
+- Appended the preceding synchronization event to
+  `diaries/documentary-squad.md` (30 added lines).
+- The synchronized range changed documentation only; it recorded the pull
+  request update from `75647ef` to `026c88b` and the verification steps from
+  that automation run.
+
+### Documentary squad actions
+
+- Read `AUTOMATIONS.md` and the Documentary squad's standing instructions.
+- Fetched the shallow checkout's missing `before` commit and verified that the
+  synchronized range added 30 lines to one Markdown file.
+- Appended this event's user-action summary and key repository changes to the
+  history.
